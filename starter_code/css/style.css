@@ -40,16 +40,21 @@ Developer @GA in NYC
   float: left;
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
+.extraBold {
+  font-weight: 800;
+}
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
+     font-size: 30px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     text-align: center;
+     color: white;
+     font-weight: 600;
 }
 
 
@@ -67,18 +72,45 @@ body {
 
 header {
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-     background-size: cover;
-     height: 800px;
+     background-size: 100% 100%;
+     height: 500px;
 }
-
+.benefits {
+  background-color: #f0efef;
+  color: #033048;
+  text-align: left;
+}
+.testimonial {
+  background: url(../images/testimonial_bg.jpg);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.signUp {
+  background-color: rgb(244, 244, 22);
+}
 footer {
-
+  background-color: #121212;
+  color: white;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
+h1 {
+  font-size: 24px;
+  color: white;
+}
+h3, ul {
+  font-size: 13px;
+  font-weight: 300;
+}
+button {
+  border-radius: 5px;
+}
+#signUpButton {
+  font-size: 12px;
+  color: white;
+  background-color: #033048;
+}
 
