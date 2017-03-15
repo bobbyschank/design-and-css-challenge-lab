@@ -97,12 +97,13 @@ img {
   font-size: 13px;
   font-weight: 300;
   padding: 0 0 20px 40px;
-  width: 400px;
+  width: 360px;
 }
 .benefitsList {
   font-size: 13px;
   font-weight: 300;
   padding: 0 0 20px 60px;
+  width: 330px;
 }
 .testimonial {
   background: url(../images/testimonial_bg.jpg);
